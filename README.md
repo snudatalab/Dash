@@ -4,7 +4,7 @@ This is a code for "Dual-Way Streaming PARAFAC2 Decomposition Method for Irregul
 ## Code Information
 All codes are written by MATLAB 2020b.
 This repository contains the code for Dash (Dual-wAy Streaming PARAFAC2 decomposition metHod for irregular tensors), an efficient method for PARAFAC2 decomposition in a dual-way streaming setting. Given pre-existing factor matrices, new rows of existing slice matrices, and new slice matrices Dash efficiently updates factor matrices by carefully avoiding the computations involved with an accumulated tensor.
-Our code requires Tensor Toolbox version 3.0 (available at https://gitlab.com/tensors/tensor_toolbox).
+Our code requires Tensor Toolbox version 3.0 (available at https://gitlab.com/tensors/tensor_toolbox, put the tensor toolbox folder in `library` directory after downloading the tensor toolbox library).
 
 * The code of Dash is in `src` directory.
     * `dash_initial.m`: the code related to the initialization to find initial factor matrices before dynamic updates.
