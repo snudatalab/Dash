@@ -28,3 +28,19 @@ Or,
    `run demo_jpn.m`
 
 Note that you should modify the path of data in `demo_kr.m` or `demo_jpn.m` file, appropriately if the code does not run.
+
+## Reference
+If you use this code, please cite the following paper.
+```
+@article{DBLP:journals/corr/abs-2305-18376,
+  author       = {Jun{-}Gi Jang and
+                  Jeongyoung Lee and
+                  Yong{-}chan Park and
+                  U Kang},
+  title        = {Fast and Accurate Dual-Way Streaming {PARAFAC2} for Irregular Tensors
+                  - Algorithm and Application},
+  journal      = {CoRR},
+  volume       = {abs/2305.18376},
+  year         = {2023}
+}
+```
