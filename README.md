@@ -32,15 +32,11 @@ Note that you should modify the path of data in `demo_kr.m` or `demo_jpn.m` file
 ## Reference
 If you use this code, please cite the following paper.
 ```
-@article{DBLP:journals/corr/abs-2305-18376,
-  author       = {Jun{-}Gi Jang and
-                  Jeongyoung Lee and
-                  Yong{-}chan Park and
-                  U Kang},
-  title        = {Fast and Accurate Dual-Way Streaming {PARAFAC2} for Irregular Tensors
-                  - Algorithm and Application},
-  journal      = {CoRR},
-  volume       = {abs/2305.18376},
-  year         = {2023}
+@inproceedings{jang2023fast,
+  title={Fast and accurate dual-way streaming parafac2 for irregular tensors-algorithm and application},
+  author={Jang, Jun-Gi and Lee, Jeongyoung and Park, Yong-chan and Kang, U},
+  booktitle={Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  pages={879--890},
+  year={2023}
 }
 ```
